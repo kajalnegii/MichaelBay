@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: navy;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+header {
+    background-color: darkred;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.intro {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.intro h2 {
+    font-family: 'Georgia', serif;
+}
+
+.movies {
+    background-color: lightsteelblue;
+    padding: 20px;
+}
+
+.movies h3 {
+    font-family: 'Courier New', monospace;
+}
+
+.style-section {
+    background-color: cornsilk;
+    padding: 20px;
+}
+
+.style-section h4 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 28px;
+}
+
+.rounded-img {
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.rounded-img:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
